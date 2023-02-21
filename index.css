@@ -1,0 +1,23 @@
+/* image */
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* background image */
+#mainimg
+{
+    height: 97vh;
+    width: 80vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* z-index: 0; */
+}
+body
+{
+    /* z-index: 1; */
+    position: relative;
+    background-color: black;
+    overflow: hidden;
+}
