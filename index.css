@@ -8,11 +8,10 @@
 #mainimg
 {
     height: 171vh;
-    width: 77.5vw;
+    width: 106.5vw;
     position: absolute;
     top: 0;
-    right: 0;
-    /* z-index: 0; */
+    right: -401px;
 }
 body
 {
@@ -43,7 +42,7 @@ body
 {
     position: absolute;
     width: 100vw;
-    height: 196vh;
+    height: 194vh;
     background-image: linear-gradient(to right, rgb(255 120 62 / 69%) 60%, rgba(255, 255, 255, 0)40%);
     z-index: 1;
 }
@@ -79,6 +78,9 @@ body
     position: absolute;
     top: 5rem;
     right: 10rem;
+    width: 6rem;
+    color: white;
+    font-size: 4rem;
 }
 /* three logos */
 #logo1
@@ -139,7 +141,7 @@ body
     
     position: absolute;
     width: 100vw;
-    height: 151vh;
+    height: 182vh;
     background-image: linear-gradient(to left, rgb(100 159 155 / 55%) 50%, rgba(255, 255, 255, 0)50%);
     z-index: 1;
     top: 43rem;
@@ -154,3 +156,29 @@ body
     left: 2.8rem;
     height: 59rem;
 }
+#row2-h1
+{
+    font-size: 11rem;
+    color: white;
+    font-weight: 900;
+    position: absolute;
+    top: 26rem;
+    left: 29rem;
+}
+#row2-p1
+{
+    color: white;
+    width: 33.8rem;
+    font-size: 29px;
+    text-align: justify;
+    line-height: 2rem;
+    font-weight: 500;
+    direction: rtl;
+    position: absolute;
+    top: 38rem;
+    right: 5rem;
+    border-bottom: 5px solid blue;
+    height: 18rem;
+}
+
+/* li 2 */
