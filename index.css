@@ -141,7 +141,7 @@ body
     
     position: absolute;
     width: 100vw;
-    height: 182vh;
+    height: 184vh;
     background-image: linear-gradient(to left, rgb(100 159 155 / 55%) 50%, rgba(255, 255, 255, 0)50%);
     z-index: 1;
     top: 43rem;
@@ -177,8 +177,31 @@ body
     position: absolute;
     top: 38rem;
     right: 5rem;
-    border-bottom: 5px solid blue;
+    border-bottom: 5px solid rgba(118,178,175,255);
     height: 18rem;
 }
 
 /* li 2 */
+#ul2
+{
+    top: 56rem;
+    position: absolute;
+    left: 3.9rem;
+    border-top: 5px solid rgba(81,127,123,255);
+    width: 33.8rem;     
+}
+.li2
+{
+    list-style-type: none;
+    /* float: right; */
+    padding-left: 1rem;
+    padding-top: 3rem;
+}
+#row2-h1-2
+{
+    position: absolute;
+    top: 68rem;
+    right: 8.7rem;
+    font-size: 3rem;
+    color: white;
+}
