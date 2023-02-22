@@ -85,19 +85,19 @@ body
 /* three logos */
 #logo1
 {
-    height: 5rem;
+    height: 6rem;
 }
 #logo2
 {
-    height: 5rem;
+    height: 6rem;
 }
 #logo3
 {
-    height: 5rem;
+    height: 6rem;
 }
 #logo4
 {
-    height: 5rem;
+    height: 6rem;
 }
 .li1
 {
@@ -154,7 +154,7 @@ body
     top: 46.5rem;
     position: absolute;
     left: 2.8rem;
-    height: 59rem;
+    height: 72rem;
 }
 #row2-h1
 {
@@ -178,13 +178,13 @@ body
     top: 38rem;
     right: 5rem;
     border-bottom: 5px solid rgba(118,178,175,255);
-    height: 18rem;
+    height: 20rem;
 }
 
 /* li 2 */
 #ul2
 {
-    top: 56rem;
+    top: 58rem;
     position: absolute;
     left: 3.9rem;
     border-top: 5px solid rgba(81,127,123,255);
@@ -204,4 +204,48 @@ body
     right: 8.7rem;
     font-size: 3rem;
     color: white;
+}
+#ul3
+{
+    position: absolute;
+    top: 38rem;
+    left: 14.5rem;
+    color: white;
+    font-size: 2.7rem;
+    line-height: 3.4rem;
+}
+.li3
+{
+    list-style-type: none;
+}
+.li3-g
+{
+    list-style-type: none;
+    line-height: 105%;
+    margin-top: 5px;    
+}
+#ul4
+{
+    color: white;
+    left: 14.2rem;
+    position: absolute;
+    top: 57.5rem;
+}
+.li4
+{
+    padding-top: 1.2rem;
+}
+.row2-span
+{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.address h6 {
+    margin: -1px 0px 30px 1px;
+    color: white;
+    font-size: 2rem;
+}
+.address h6 i {
+    color: white;
+    margin: 0px 10px 30px 0px;
 }
